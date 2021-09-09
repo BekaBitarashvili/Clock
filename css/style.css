@@ -1,0 +1,155 @@
+body {
+	background-color: #778899;
+}
+.clock {
+	width: 350px;
+	height: 350px;
+	border: solid;
+	border-radius: 50%;
+	box-shadow: inset 0 0 17px #000;
+	position: absolute;
+	cursor: pointer;
+	top: 20%;
+	left: 36%;
+	background: linear-gradient(-70deg, #6b5b95, #feb236, #d64161, #ff7b25);
+	background-size: 400% 400%;
+	animation: change 10s ease-in-out infinite;
+}
+@keyframes change {
+	0% {
+		background-position: 0 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0 50%;
+	}
+
+}
+.dot {
+	width: 10px;
+	height: 10px;
+	background-color: #000;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 50%;
+}
+.long-arrow {
+	width: 125px;
+	height: 3px;
+	background-color: #000;
+	position: absolute;
+	top: 51%;
+	left: 15%;
+	border-radius: 25%;
+	animation: long 10s infinite linear;
+	transform-origin: right;
+}
+@keyframes long {
+	100% {transform: rotate(360deg);}
+}
+
+.short-arrow {
+	width: 75px;
+	height: 3px;
+	background-color: #000;
+	position: absolute;
+	top: 51%;
+	left: 30%;
+	border-radius: 25%;
+	animation: short 50s infinite linear;
+	transform-origin: right;
+}
+@keyframes short {
+	100% {transform: rotate(360deg);}
+}
+
+
+
+
+.twelve {
+	font-size: 25px;
+	font-family: cursive;
+	position: absolute;
+	top: 3%;
+	left: 46%;
+}
+.three {
+	font-size: 25px;
+	font-family: cursive;
+	position: absolute;
+	top: 46%;
+	left: 91%;
+}
+.nine {
+	font-size: 25px;
+	font-family: cursive;
+	position: absolute;
+	top: 47%;
+	left: 4%;
+}
+.six {
+	font-size: 25px;
+	font-family: cursive;
+	position: absolute;
+	top: 89%;
+	left: 50%;
+}
+.five {
+	font-size: 25px;
+	font-family: cursive;
+	position: absolute;
+	top: 83%;
+	left: 69%;
+}
+.four {
+	font-size: 25px;
+	font-family: cursive;
+	position: absolute;
+	top: 68%;
+	left: 85%;
+}
+.seven {
+	font-size: 25px;
+	font-family: cursive;
+	position: absolute;
+	top: 85%;
+	left: 30%;
+}
+.eight {
+	font-size: 25px;
+	font-family: cursive;
+	position: absolute;
+	top: 70%;
+	left: 12%;
+}
+.two {
+	font-size: 25px;
+	font-family: cursive;
+	position: absolute;
+	top: 24%;
+	left: 84%;
+}
+.one {
+	font-size: 25px;
+	font-family: cursive;
+	position: absolute;
+	top: 9%;
+	left: 69%;
+}
+.ten {
+	font-size: 25px;
+	font-family: cursive;
+	position: absolute;
+	top: 26%;
+	left: 9%;
+}
+.eleven {
+	font-size: 25px;
+	font-family: cursive;
+	position: absolute;
+	top: 9%;
+	left: 25%;
+}
